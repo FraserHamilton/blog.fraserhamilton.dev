@@ -1,5 +1,5 @@
 ---
-title: Var, Let and Const
+title: Var, let and const
 date: "2020-03-22T22:12:03.284Z"
 description: "The three methods of variable declaration in JavaScript"
 ---

@@ -1,5 +1,5 @@
 ---
-title: Authentication In Expo React Native With Okta
+title: Authentication in expo react native with okta
 date: "2020-04-30T22:12:03.284Z"
 description: "Authentication in your react native apps made easy"
 ---
