@@ -1,7 +1,7 @@
 ---
 title: How to merge two objects in JavaScript
 date: "2020-06-15T13:28:00.000Z"
-description: "Create a new object that combines two objects properties"
+description: "Learn how to create a new object that combines two objects properties"
 ---
 
 Thanks to the introduction of the spread operator we can easily merge two objects into one in Javascript. Using the following method:
