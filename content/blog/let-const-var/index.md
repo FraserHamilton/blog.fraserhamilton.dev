@@ -1,7 +1,7 @@
 ---
 title: Var, let and const
-date: "2020-03-22T22:12:03.284Z"
-description: "The three methods of variable declaration in JavaScript"
+date: '2020-03-22T22:12:03.284Z'
+description: 'The three methods of variable declaration in JavaScript'
 ---
 
 In this article we'll discuss the three ways to create variables in JavaScript as well as the differences between
@@ -13,10 +13,10 @@ Variables declared using `var` are either globally scoped or function scoped. Sc
 then the variable can only be accessed within that function. Let's look at an example.
 
 ```javascript
-var foo = "foo"
+var foo = 'foo'
 
 function exampleFunction() {
-  var bar = "bar"
+  var bar = 'bar'
 }
 ```
 
@@ -25,10 +25,10 @@ In this example the variable `foo` is globally scoped and the variable `bar` is 
 The function scoping of `var` paired with the ability to redeclare a variable using the same identifier can cause major issues in your code as in this example.
 
 ```javascript
-var foo = "foo"
+var foo = 'foo'
 
 if (1 < 3) {
-  var foo = "bar"
+  var foo = 'bar'
 }
 
 console.log(foo)
@@ -41,7 +41,7 @@ code execution. So for example:
 
 ```javascript
 console.log(foo)
-var foo = "foo"
+var foo = 'foo'
 ```
 
 Before execution this will be converted to the following:
@@ -49,7 +49,7 @@ Before execution this will be converted to the following:
 ```javascript
 var foo
 console.log(foo)
-foo = "foo"
+foo = 'foo'
 ```
 
 This means that when we try to output the value of `foo` to the console the variable hasn't been initialized with a value yet and will instead show `undefined`.
@@ -59,12 +59,12 @@ This means that when we try to output the value of `foo` to the console the vari
 The introduction of `let` replaced `var` as the preferred variable declaration method. It improves upon and solves some of the problems we've seen with `var`. Before touching on the differences it's worth explaining that in JavaScript a block is defined as anything between two curly braces i.e `{}`. A variable declared with `let` is blocked scoped meaning that it won't be available outside of the block it's declared within. Let's look at another example.
 
 ```javascript
-var foo = "foo"
+var foo = 'foo'
 
 function exampleFunction() {
   if (1 < 3) {
-    var bar = "bar"
-    let qux = "test"
+    var bar = 'bar'
+    let qux = 'test'
   }
 
   console.log(bar)
@@ -81,8 +81,8 @@ Hoisting with `let` works differently as well. Instead of being initialized as u
 `const` plays a slightly different role to the other variable declaration methods. Variables declared using `const` are block scoped much like those declared using `let` however they cannot be updated. So we wouldn't be able to do the following.
 
 ```javascript
-const myConst = "foo"
-myConst = "bar"
+const myConst = 'foo'
+myConst = 'bar'
 ```
 
 Hoisting in `const` behaves exactly the same as with `let`, declarations are hoisted to the top but not initialized.

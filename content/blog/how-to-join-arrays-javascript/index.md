@@ -1,14 +1,14 @@
 ---
 title: How to join two arrays in JavaScript
-date: "2020-06-16T15:34:00.000Z"
-description: "Learn how to combine two arrays into a new array"
+date: '2020-06-16T15:34:00.000Z'
+description: 'Learn how to combine two arrays into a new array'
 ---
 
 There are 2 easy ways to combine two arrays into one in JavaScript. You can use the spread operator intoduced in ES6 and combine them like so:
 
 ```javascript
-const boys = ["brian", "james", "rory"]
-const girls = ["karen", "emily", "louisa"]
+const boys = ['brian', 'james', 'rory']
+const girls = ['karen', 'emily', 'louisa']
 
 const boysAndGirls = [...boys, ...girls]
 
@@ -25,8 +25,8 @@ It's worth nothing that the order in which you spread the arrays inside of the n
 If you need to support older browsers you can also use concat to join two arrays:
 
 ```javascript
-const boys = ["brian", "james", "rory"]
-const girls = ["karen", "emily", "louisa"]
+const boys = ['brian', 'james', 'rory']
+const girls = ['karen', 'emily', 'louisa']
 
 const boysAndGirls = [].concat(boys, girls)
 

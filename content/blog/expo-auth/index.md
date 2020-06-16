@@ -1,7 +1,7 @@
 ---
 title: Authentication in expo react native with okta
-date: "2020-04-30T22:12:03.284Z"
-description: "Authentication in your react native apps made easy"
+date: '2020-04-30T22:12:03.284Z'
+description: 'Authentication in your react native apps made easy'
 ---
 
 Authentication in your application has never been easier and can be accomplished in minutes by using a 3rd party Identity provider such as Okta.
@@ -30,22 +30,22 @@ We'll want to add AuthSession from the Expo SDK to our project so we can easily 
 First we need to create an account as an Okta Developer which you can do without spending a penny [here](https://developer.okta.com/signup).
 
 Once you complete the sign up you should be taken to the developer dashboard we need to grab our okta orgs url from this page, you can see it highlighted in red on the following image.
-![alt text](./OktaUrl.png "Okta Add Application")
+![alt text](./OktaUrl.png 'Okta Add Application')
 
 Next we need to create an Application so we can get the credentials we need for AuthSession. You can do this by going to Applications and clicking the green "Add Application" button.
 
-![alt text](./OktaAddApplication.png "Okta Add Application")
+![alt text](./OktaAddApplication.png 'Okta Add Application')
 
 You'll want to select "Native" as the platform on this next stage.
 
-![alt text](./OktaSelectPlatform.PNG "Okta Select Application")
+![alt text](./OktaSelectPlatform.PNG 'Okta Select Application')
 
 Finally we reach the settings page where we need to get a bit more involved. We need to give our application a name and configure both our login redirect URI and logout redirect URI to point at our application when we're running it in development. We want to add a new URI by hitting the plus button underneath the original and take note of the original for the next step.
 
 The url that the proxy will create for you will be structured like this `https://auth.expo.io/@{Expo Username}/{Project Name}`, so for me on this particular project it's `https://auth.expo.io/@fraserh121/auth-example`.
 
 You'll also want to take a note of the client ID at the bottom of this page as we'll need that later.
-![alt text](./OktaSettingsPage.PNG "Okta Settings Page")
+![alt text](./OktaSettingsPage.PNG 'Okta Settings Page')
 
 ## Modifying App.js
 
@@ -111,4 +111,4 @@ You'll need to replace the following fields to make this code work: {Your Okta D
 You should now be able to run your application and successfully go through the login flow on your device.
 You can include the token that's returned to your application during the redirect in your requests
 
-![alt text](./Final.PNG "Final Screen")
+![alt text](./Final.PNG 'Final Screen')
