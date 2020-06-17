@@ -14,7 +14,6 @@ const boysAndGirls = [...boys, ...girls]
 
 console.log(boysAndGirls)
 
-// Result
 // ["brian", "james", "rory", "karen", "emily", "louisa"]
 ```
 
@@ -32,7 +31,6 @@ const boysAndGirls = [].concat(boys, girls)
 
 console.log(boysAndGirls)
 
-// Result
 // ["brian", "james", "rory", "karen", "emily", "louisa"]
 ```
 

@@ -1,19 +1,18 @@
 ---
 title: How to reverse an array in JavaScript
-date: "2020-06-16T21:58:00.000Z"
-description: "Learn how to reverse an array in Javascript using the Array.prototype method"
+date: '2020-06-16T21:58:00.000Z'
+description: 'Learn how to reverse an array in Javascript using the Array.prototype method'
 ---
 
 Reversing an array in JavaScript couldn't be any easier thanks to Array.prototype.reverse() method. You can use it on any array like this:
 
 ```javascript
-const cities = ["paris", "london", "new york", "rome"]
+const cities = ['paris', 'london', 'new york', 'rome']
 
 const reversed = cities.reverse()
 
 console.log(reversed)
 
-// Result
 // ["rome", "new york", "london", "paris"]
 ```
 
@@ -32,13 +31,12 @@ const reverseArray = arr => {
   return rev
 }
 
-const cities = ["paris", "london", "new york", "rome"]
+const cities = ['paris', 'london', 'new york', 'rome']
 
 const reversed = reverseArray(cities)
 
 console.log(reversed)
 
-// Result
 // ["rome", "new york", "london", "paris"]
 ```
 
