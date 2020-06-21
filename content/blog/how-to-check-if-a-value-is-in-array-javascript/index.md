@@ -4,7 +4,7 @@ date: '2020-06-20T11:21:00.000Z'
 description: 'Learn how to check if a value is in an array using includes()'
 ---
 
-By using the JavaScript **Array.protoype** function **includes** we can quickly determine if an array contains a certain element. Here's a simple example:
+By using the JavaScript **Array.prototype** function **includes** we can quickly determine if an array contains a certain element. Here's a simple example:
 
 ```javascript
 const animals = ['dog', 'cat', 'cow', 'goose', 'bear']
@@ -52,7 +52,7 @@ console.log(hasAge10)
 
 <br/>
 
-No bueno, Sadly we can't compare objects directly so **includes** won't work here. We're going to need to look for an alternative, luckily there's a very similiar method that we can pass a function to **some**. Let's try it with that:
+No bueno, Sadly we can't compare objects directly so **includes** won't work here. We're going to need to look for an alternative, luckily there's a very similar method that we can pass a function to **some**. Let's try it with that:
 
 ```javascript
 const animals = [

@@ -4,7 +4,7 @@ date: '2020-06-16T15:34:00.000Z'
 description: 'Learn how to combine two arrays into a new array'
 ---
 
-There are 2 easy ways to combine two arrays into one in JavaScript. You can use the spread operator intoduced in ES6 and combine them like so:
+There are 2 easy ways to combine two arrays into one in JavaScript. You can use the spread operator introduced in ES6 and combine them like so:
 
 ```javascript
 const boys = ['brian', 'james', 'rory']
