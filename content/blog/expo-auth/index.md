@@ -13,7 +13,7 @@ We're going to start by creating a new expo project, open up a console window an
     # Install expo CLI tooling
     $ npm install --global expo-cli
 
-    # Create a new Project & select "blank" when prompted
+    # Create a new Project & select 'blank' when prompted
     $ expo init auth-example
 
 You can ensure that your installation has gone to plan by running the app with `expo start` and testing it either on your device or running it on one of the simulators.
@@ -32,11 +32,11 @@ First we need to create an account as an Okta Developer which you can do without
 Once you complete the sign up you should be taken to the developer dashboard we need to grab our okta orgs url from this page, you can see it highlighted in red on the following image.
 ![alt text](./OktaUrl.png 'Okta Add Application')
 
-Next we need to create an Application so we can get the credentials we need for AuthSession. You can do this by going to Applications and clicking the green "Add Application" button.
+Next we need to create an Application so we can get the credentials we need for AuthSession. You can do this by going to Applications and clicking the green 'Add Application' button.
 
 ![alt text](./OktaAddApplication.png 'Okta Add Application')
 
-You'll want to select "Native" as the platform on this next stage.
+You'll want to select 'Native' as the platform on this next stage.
 
 ![alt text](./OktaSelectPlatform.PNG 'Okta Select Application')
 
@@ -52,16 +52,16 @@ You'll also want to take a note of the client ID at the bottom of this page as w
 Now that we've finished setting up our Okta application we get to do the fun bit, the coding.
 You'll need to replace the following fields to make this code work: {Your Okta Domain}, {Your Okta Client Id}, {The Original Okta Login Redirect URI}
 
-    import React from "react";
-    import { Button, Platform, Text, View } from "react-native";
+    import React from 'react';
+    import { Button, Platform, Text, View } from 'react-native';
     import {
     useAutoDiscovery,
     useAuthRequest,
     makeRedirectUri,
-    } from "expo-auth-session";
-    import { maybeCompleteAuthSession } from "expo-web-browser";
+    } from 'expo-auth-session';
+    import { maybeCompleteAuthSession } from 'expo-web-browser';
 
-    if (Platform.OS === "web") {
+    if (Platform.OS === 'web') {
     maybeCompleteAuthSession();
     }
 
@@ -70,18 +70,18 @@ You'll need to replace the following fields to make this code work: {Your Okta D
     export default function App() {
     // Endpoint
     const discovery = useAutoDiscovery(
-        "https://{Your Okta Domain}/oauth2/default"
+        'https://{Your Okta Domain}/oauth2/default'
     );
 
     // Request
     const [request, response, promptAsync] = useAuthRequest(
         {
-        clientId: "{Your Okta Client Id}",
-        scopes: ["openid", "profile"],
+        clientId: '{Your Okta Client Id}',
+        scopes: ['openid', 'profile'],
         // For usage in managed apps using the proxy
         redirectUri: makeRedirectUri({
             // For usage in bare and standalone
-            native: "{The Original Okta Login Redirect URI}",
+            native: '{The Original Okta Login Redirect URI}',
             useProxy,
         }),
         },
@@ -92,12 +92,12 @@ You'll need to replace the following fields to make this code work: {Your Okta D
         <View
         style={{
             flex: 1,
-            justifyContent: "center",
-            alignItems: "center",
+            justifyContent: 'center',
+            alignItems: 'center',
         }}
         >
         <Button
-            title="Login!"
+            title='Login!'
             disabled={!request}
             onPress={() => promptAsync({ useProxy })}
         />

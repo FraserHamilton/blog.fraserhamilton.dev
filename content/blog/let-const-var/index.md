@@ -34,7 +34,7 @@ if (1 < 3) {
 console.log(foo)
 ```
 
-When we run this code you may be surprised to learn that the output in the console would actually be "bar" because the variable within the conditional statement replaces the original delcaration.
+When we run this code you may be surprised to learn that the output in the console would actually be 'bar' because the variable within the conditional statement replaces the original delcaration.
 
 Hoisting in JavaScript is when variables and function declarations are moved to to the top of their scope before
 code execution. So for example:

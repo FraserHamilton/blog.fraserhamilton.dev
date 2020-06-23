@@ -16,7 +16,7 @@ const flatColors = colors.flat()
 
 console.log(flatColors)
 
-// ["red", "blue", "green", "pink"]
+// ['red', 'blue', 'green', 'pink']
 ```
 
 <br/>
@@ -33,7 +33,7 @@ const flatColors = colors.flat(3)
 
 console.log(flatColors)
 
-// ["red", "blue", "yellow", "green", "pink", "orange", "brown"]
+// ['red', 'blue', 'yellow', 'green', 'pink', 'orange', 'brown']
 ```
 
 <br/>
@@ -50,7 +50,7 @@ const flatColors = colors.flat(Infinity)
 
 console.log(flatColors)
 
-// ["red", "blue", "green", "pink", "orange", "brown"]
+// ['red', 'blue', 'green', 'pink', 'orange', 'brown']
 ```
 
 <br/>
@@ -68,7 +68,7 @@ const flatColors = flatten(colors)
 
 console.log(flatColors)
 
-// ["red", "blue", "green", "pink"]
+// ['red', 'blue', 'green', 'pink']
 ```
 
 <br/>

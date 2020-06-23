@@ -13,7 +13,7 @@ const reversed = cities.reverse()
 
 console.log(reversed)
 
-// ["rome", "new york", "london", "paris"]
+// ['rome', 'new york', 'london', 'paris']
 ```
 
 <br/>
@@ -37,7 +37,7 @@ const reversed = reverseArray(cities)
 
 console.log(reversed)
 
-// ["rome", "new york", "london", "paris"]
+// ['rome', 'new york', 'london', 'paris']
 ```
 
 <br/>
