@@ -1,10 +1,10 @@
 ---
 title: Introduction to ES Modules
-date: '2020-06-24T11:53:00.000Z'
+date: '2020-06-25T12:40:00.000Z'
 description: 'Getting to grips with the ECMAScript module system'
 ---
 
-The ES Modules system brings an official, standardised module system to JavaScript. While Node.js has been using the CommonJS standard for years now there wasn't an official standard for use in the browser. Modules give you a better way to organize your variables and functions, allowing you to split up your code and share functionality through explicit relationships.
+The ECMAScript Modules system brings an official, standardised module system to JavaScript. While Node.js has been using the CommonJS standard for years now there wasn't an official standard for use in the browser. Modules give you a better way to organize your variables and functions, allowing you to split up your code and share functionality through explicit relationships.
 
 # Syntax
 
