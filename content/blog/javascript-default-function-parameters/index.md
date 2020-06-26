@@ -72,4 +72,4 @@ calculatePrice(10, 1, 0) // modifier = 0
 
 </br>
 
-Less code, more readable and the same result
+Less code, more readable and the same result.
