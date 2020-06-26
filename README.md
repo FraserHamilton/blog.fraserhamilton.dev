@@ -7,7 +7,7 @@
   Fraser Hamilton's Blog
 </h1>
 
-This is the repository for my daily blog in which I write about a range of topics releated to Software Development. It's packed full of varied content from tutorials to opinon pieces covering a variety of technologies but mainly focused on JavaScript. I also have a personal site where I post my projects which you can find [here](https://fraserhamilton.dev/).
+This is the repository for my daily blog in which I write about a range of topics releated to Software Development. It's packed full of varied content from tutorials to opinion pieces covering a variety of technologies but mainly focused on JavaScript. I also have a personal site where I post my projects which you can find [here](https://fraserhamilton.dev/).
 
 <br/>
 
