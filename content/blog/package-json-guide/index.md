@@ -1,6 +1,6 @@
 ---
 title: A guide to package.json
-date: '2020-06-29T11:16:00.000Z'
+date: '2020-06-30T11:16:00.000Z'
 description: 'Getting to grips with the file at heart of many codebases in the JavaScript ecosystem'
 ---
 
