@@ -5,13 +5,14 @@ module.exports = {
       name: `Fraser Hamilton`,
       summary: `a full stack developer based out of Edinburgh, Scotland.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `Daily blog in which I write about a range of topics related to Software Development. It's packed full of varied content from tutorials to opinion pieces.`,
+    siteUrl: `https://blog.fraserhamilton.dev/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `fraserhamilton`,
     },
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
