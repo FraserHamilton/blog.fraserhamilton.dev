@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "blog.fraserhamilton.dev",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Daily blog in which I write about a range of topics related to Software Development. It's packed full of varied content from tutorials to opinion pieces.",
+  "version": "1.0.0",
+  "author": "Fraser Hamilton <fraser@webuilddigital.co.uk>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/FraserHamilton/blog.fraserhamilton.dev/issues"
   },
   "dependencies": {
     "gatsby": "^2.19.45",
@@ -38,15 +38,18 @@
   "devDependencies": {
     "prettier": "^1.19.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://blog.fraserhamilton.dev/",
   "keywords": [
+    "blog",
+    "react",
+    "javascript",
     "gatsby"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/FraserHamilton/blog.fraserhamilton.dev.git"
   },
   "scripts": {
     "build": "gatsby build",
