@@ -19,6 +19,7 @@ module.exports = {
         head: true,
       },
     },
+    'gatsby-plugin-draft',
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
