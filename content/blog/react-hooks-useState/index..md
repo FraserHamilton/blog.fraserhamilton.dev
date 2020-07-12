@@ -1,7 +1,7 @@
 ---
 title: 'React Hooks: UseState'
-date: '2020-07-11T11:06:00.000Z'
-description: 'Consistent, easy and automatic code formatting for you and your team'
+date: '2020-07-12T10:06:00.000Z'
+description: 'Managing state in React functional components with hooks'
 ---
 
 The `useState` hook allows you to manage the state of your React component without having to write a class. Here's a simple class based example that we're going to convert to it's functional equivalent with `useState`:
