@@ -1,6 +1,6 @@
 ---
 title: How to check if a string contains a substring in JavaScript
-date: '2020-07-18T23:00:00.000Z'
+date: '2020-07-19T23:00:00.000Z'
 description: 'Using string.prototype.includes to check if a substring exists'
 ---
 
