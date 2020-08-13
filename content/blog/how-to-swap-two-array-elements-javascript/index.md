@@ -1,6 +1,6 @@
 ---
 title: How to swap two array elements in JavaScript
-date: '2020-08-13T15:43:00.000Z'
+date: '2020-08-13T09:43:00.000Z'
 description: 'Swapping array elements without needing a temporary variable'
 ---
 
