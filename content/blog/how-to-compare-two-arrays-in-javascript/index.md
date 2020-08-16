@@ -10,7 +10,7 @@ If you want to compare two arrays in JavaScript it's not a simple as just chucki
 const array1 = ['a', 'b', 'c', 'd']
 const array2 = ['a', 'b', 'c', 'd']
 
-console.log(a1 == a2)
+console.log(array1 == array2)
 
 // false
 ```
